@@ -1,0 +1,173 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;	
+	font-size: 16px;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: auto;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover {
+	font-weight: 300;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;	
+	background-color: #FFFFFF; 
+}
+
+#nav {
+	margin: 0 auto; 
+	width: 300px;
+	height: 50px;
+}
+
+#nav a {
+	float: left; 
+	padding-left: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar-brand {
+	text-align: center; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.header {
+	padding-top: 200px; 
+	padding-bottom: 50px;
+	font-size: 1.5em; 
+	text-align: center;
+	line-height: 150%;
+	width: 60%;
+	margin: auto;
+}
+
+.page-title {
+	padding-top: 170px; 
+	padding-bottom: 50px;
+	font-size: 2.5em; 
+	text-align: center;
+	line-height: 150%;
+	width: 60%;
+	margin: auto;
+}
+
+.header2 {
+	padding-top: 30px; 
+	padding-bottom: 10px;
+	font-size: 1.5em; 
+	text-align: center;
+	line-height: 150%;
+	width: 60%;
+	margin: auto;
+}
+
+.container1 {
+	margin: 0 auto; 
+	width: 70%;
+	height: 300px;
+}
+
+.about {
+	margin: 0 auto; 
+	width: 70%;
+	height: 150px;
+}
+
+.text1 {
+	float: left; 
+	width: 50%;
+	padding: 30px;
+	text-align: left;  
+	font-size: 0.8em; 
+	line-height: 200%; 
+	box-sizing: border-box;
+
+}
+
+b {
+	font-weight: 300;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto; 
+	width: 45%;
+	height: 1100px;
+}
+
+/*muzheum page*/
+.image1 {
+	margin-left: auto;
+	margin-right: auto; 
+	width: 70%;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+/*
+.image2 {
+	margin-left: auto;
+	margin-right: auto; 
+	width: 70%;
+	height: 1300px;
+}
+
+/*djembe page
+.image3 {
+	margin-left: auto;
+	margin-right: auto; 
+	width: 70%;
+	height: auto;
+}
+
+.image2 {
+	margin-left: auto;
+	margin-right: auto; 
+	width: 70%;
+	height: 1300px;
+}*/
+
+.projects1 {
+	float: left; 
+	width: 50%;
+	padding: 10px;
+	text-align: center;  
+	box-sizing: border-box;
+}
+
+.projects1:hover {
+	box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+#footer {
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 50px;
+	text-align: center;
+}
+
+#footer a {
+	padding-left: 30px;
+	text-align: center;
+}
+}

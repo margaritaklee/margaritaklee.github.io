@@ -1,0 +1,66 @@
+
+body {
+	font-family: roboto-thin; 
+	font-size: 16px;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: auto;
+}
+#nav {
+	float: right; 
+	padding: 20px;
+}
+.navbar-brand {
+	text-align: left; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+.header {
+	padding-top: 50px; 
+	font-size: 1.5em; 
+	text-align: center;
+}
+.about {
+	margin: auto; 
+	background-color: black; 
+	width: 90%;
+	height: 400px;
+}
+.text1 {
+	margin: auto; 
+	float: left; 
+	width:30%;
+	text-align: left; 
+	padding: 50px; 
+	font-size: 0.8em; 
+	line-height: 200%; 
+	background-color: green;
+}
+.text2 {
+	margin: auto; 
+	float: left;  
+	width: 30%;
+	text-align: left; 
+	padding: 50px; 
+	font-size: 0.8em; 
+	line-height: 200%; 
+	background-color: red;
+}
+
+.square
+{
+    margin:1px;
+    width:30%;
+    text-align:left;
+    padding: 50px;
+    font-size: 0.8em;
+    line-height: 200%;
+    border: 1px solid gray;
+    display:inline-block;    
+}
+.container
+{
+    text-align:center;
+    width:100%;
+    border: 1px solid black;
+}
