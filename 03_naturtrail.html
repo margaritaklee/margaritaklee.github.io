@@ -8,6 +8,7 @@
      <!-- <link rel="stylesheet" href="css/bootstrap.min.css">--> 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 <body>
    <header>
@@ -77,9 +78,36 @@
   </div>
 
   <div id="footer">
-      <a href="https://www.linkedin.com/" target="_blank">linked in</a>
+      <a href="https://www.linkedin.com/in/margarita-klee-buchmann/" target="_blank">linkedin</a>
       <a href="https://500px.com/mymaroundtheworld" target="_blank">500px</a>
-      <a href="mailto:margarita.klee@gmail.com">email</a>  
-  </div>
+      <a href="" data-u="nnamhcub.eelk.m" data-d="liamg" data-e="moc">email</a>  
+    </div>
+
+<script>
+
+function reverse_text(text) {
+    return text.split("").reverse().join("");
+}
+
+function get_in_touch(){
+    $('A[data-u][href=""]').each(function(){
+        var i = $(this);
+        var p1 = reverse_text('am');
+        var p2 = reverse_text('li');
+        var p3 = reverse_text(':ot');
+        var target1 = reverse_text(i.data('u'));
+        var target2 = reverse_text(i.data('d'));
+        var target3 = reverse_text(i.data('e'));
+        var right = target2 + "." + target3
+        i.attr('href', p1 + p2 + p3 + target1 + '@' + right);
+        if (i.html() == '') { i.html(target1 + '@' + right); }
+    });
+}
+
+$(function(){
+    get_in_touch();
+});
+</script>
+
 </body>
 </html>
