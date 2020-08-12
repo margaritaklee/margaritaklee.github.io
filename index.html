@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <!-- <link rel="stylesheet" href="css/bootstrap.min.css">--> 
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 <body>
  <header>
@@ -31,18 +32,21 @@
   </header>
   
     <div class="about" id="title">
-        i’m an architect turned ux / ui designer focused on perfectly balancing functionality and design to create better experiences.
+        I’m an architect turned UX / UI designer focused on perfectly balancing functionality and design to create better experiences.
     </div>
     <div class="text-container">
       <div class="text-box">
-        <p>my background as an architect strengthens my skills as a designer to efficiently incorporate the client’s requierments into elevated design concepts while also focusing on functionality and usability. after 7 years of experience as an architect i took further training to extended my skills and become a ux / ui designer. i work with figma, invision and adobe xd to create mockups and prototypes. i also gathered basic skills on html and css.</p>
+        <p>I'm an architect turned UX/UI designer - after over 10 years in architecture, I've decided to take on a new challenge. My background in architecture has trained me to understand client requirements, to focus on functionality and usability, and to create high quality designs that are both visually and functionally appealing. I have taken specific training in UX/UI design to further extend my skills, have applied them to several spare time projects, and am looking forward to starting my new career!<br>
+        <a href="images/CV_margarita_klee_en.pdf" class="link">Download CV</a></p>
+
       </div>
-      <div class="text-box">
-        <p>i studied architecture at the bauhaus university in weimar and eth in zurich. after three years of working as an urban researcher i participated in several architecture design competitions both indepentently as well as while working at architecture offices in london and zurich.  subsequently i carried on with  planing and executing various building projects in zurich. on my spare time i took on some webdesign projects for friends and family.</p>
+      <div class="text-box" style="font-style: italic;">
+        <p>Ich bin eine Architektin, die UX/UI Designerin wurde: nach über 10 Jahren in der Architektur habe ich mich entschieden, eine neue Herausforderung anzunehmen. Mein Hintergrund in Architektur hat mir dabei geholfen, Kundenanforderungen zu verstehen, den Fokus auf die Funktionalität und Benutzerfreundlichkeit zu setzen, und Entwürfe von hoher Qualität zu erstellen. Ich habe eine Weiterbildung im UX/UI Design gemacht, um meine Kenntnisse in diesem Bereich zu erweitern, und habe diese in meiner Freizeit bereits auf einige Projekte angewandt. Ich freue mich nun sehr darauf, meine neue Karriere zu beginnen!<br>
+        <a href="images/CV_margarita_klee_de.pdf" class="link">CV runterladen</a></p>
       </div>
     </div>
     <div id="case-studies" class="header">
-        case studies
+        Case Studies
     </div>
     <div class="content">
       <div class="box">
@@ -67,9 +71,37 @@
       </div>
     </div>
     <div id="footer">
-      <a href="https://www.linkedin.com/" target="_blank">linked in</a>
+      <a href="https://www.linkedin.com/in/margarita-klee-buchmann/" target="_blank">linkedin</a>
       <a href="https://500px.com/mymaroundtheworld" target="_blank">500px</a>
-      <a href="mailto:margarita.klee@gmail.com">email</a>  
+      <a href="" data-u="nnamhcub.eelk.m" data-d="liamg" data-e="moc">email</a>  
     </div>
+
+<script>
+
+function reverse_text(text) {
+    return text.split("").reverse().join("");
+}
+
+function get_in_touch(){
+    $('A[data-u][href=""]').each(function(){
+        var i = $(this);
+        var p1 = reverse_text('am');
+        var p2 = reverse_text('li');
+        var p3 = reverse_text(':ot');
+        var target1 = reverse_text(i.data('u'));
+        var target2 = reverse_text(i.data('d'));
+        var target3 = reverse_text(i.data('e'));
+        var right = target2 + "." + target3
+        i.attr('href', p1 + p2 + p3 + target1 + '@' + right);
+        if (i.html() == '') { i.html(target1 + '@' + right); }
+    });
+}
+
+$(function(){
+    get_in_touch();
+});
+</script>
+
+
 </body>
 </html>
