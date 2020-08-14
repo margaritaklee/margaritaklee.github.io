@@ -250,4 +250,13 @@ b {
 
 	text-align: center;
 }
-}
+
+.text-container2 {
+  /*border: 2px solid green;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 900px;
+  width: 80%;
+  margin-bottom: 10px;
+  }
