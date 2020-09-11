@@ -260,7 +260,7 @@ b {
 #footer {
 	width: 100%;
 	background-color: #FFFFFF;
-	height: 50px;
+	height: 20px;
 	text-align: center;
 	padding-top: 30px;
 }
@@ -269,6 +269,16 @@ b {
 	padding: 20px;
 
 	text-align: center;
+}
+
+#footer2 {
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 10px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 0.7em;
 }
 
 .text-container2 {
