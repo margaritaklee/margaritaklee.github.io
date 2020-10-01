@@ -290,6 +290,27 @@ b {
 	text-decoration: #d1a831;
 }
 
+.button2 {
+	border: 2px solid #737373;
+	color: #737373;
+	padding: 15px 20px;
+	/*background-color: #d1a831;*/
+	cursor: pointer;
+	margin-left: 15%; 
+	margin-top: 60px;
+	width: 150px;
+	text-align: center;
+	text-decoration: #737373;
+	font-weight: 400;
+}
+
+.button2:hover {
+	background-color: #737373;
+	color: #FFFFFF;
+	font-weight: 400;
+	text-decoration: #d1a831;
+}
+
 #block {
 	
 	width: 100%;
