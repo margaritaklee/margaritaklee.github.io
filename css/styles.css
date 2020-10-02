@@ -339,6 +339,10 @@ b {
   .houdini {
       display: none;
   }
+    
+    .houdini-100 {
+      display: none;
+  } 
 }
 
 
